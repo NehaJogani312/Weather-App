@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1B262C;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.ellipse1, 
+.ellipse2, 
+.ellipse3, 
+.ellipse4 {
+  position: absolute;
+  z-index: 0;
+}
+
+.ellipse1 {
+  left: -20%;
+  top: -60%;
+  background: radial-gradient(87.48% 87.48% at 49.91% 49.91%, rgba(77, 125, 152, 0.3) 0%, rgba(73, 101, 117, 0) 100%);
+  width: 571px;
+  height: 571px;
+  filter: blur(60px);
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 571px;
+  height: 571px;
+  left: -30%;
+  top: 30%;
+  background: radial-gradient(87.48% 87.48% at 49.91% 49.91%, rgba(77, 125, 152, 0.3) 0%, rgba(73, 101, 117, 0) 100%);
+  filter: blur(60px);
+}
+
+.ellipse3 {
+  position: absolute;
+  width: 571px;
+  height: 571px;
+  top: -60%;
+  right: -10%;
+  background: rgba(77, 125, 152, 0.2);
+  filter: blur(70px);
+}
+
+.ellipse4 {
+  position: absolute;
+  width: 571px;
+  height: 571px;
+  top: 10%;
+  right: -45%;
+  background: rgba(77, 125, 152, 0.2);
+  filter: blur(70px);
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .App{
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 481px) and (max-width: 991px){
+  .App{
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .App{
+    overflow-y: scroll;
+  }
+}

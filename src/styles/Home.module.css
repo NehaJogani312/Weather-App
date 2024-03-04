@@ -1,0 +1,16 @@
+.mainContainer {
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    z-index: 3;
+    background: transparent;
+    /* overflow-y: scroll; */
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .mainContainer {
+        width: 100vw;
+        height: auto;
+        
+    }
+}
